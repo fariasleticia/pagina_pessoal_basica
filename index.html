@@ -4,43 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>:P</title>
+    <title>Leticia F. Cassimiro</title>
 </head>
 <body>
     <!-- cabeçalho -->
     <header>
         <h1>Leticia F. Cassimiro</h1>
-        <h3>Estudante do Ensino Médio, envolvida em pesquisas e projetos nas áreas de Linguagens e Ciências Humanas</h3>
+        <h3>Estudante do Ensino Médio e do Curso Técnico de Desenvolvimento de Sistemas</h3>
     </header>
 
-    <div id = "conteudo_pag">
+    <!-- seção sobre mim -->
+    <section id = "sobre">
+        <div class = "titulo">
+            <h2>Sobre mim</h2>
+        </div>
+        <div id = conteudo_sobre_mim>
+            <div class = "texto">
+                <p>Sou uma estudante do 2º ano do <b>Novo Ensino Médio</b> no SESI e do Curso Técnico de
+                    <b>Desenvolvimento de Sistemas</b> no SENAI. Tenho 16 anos e planejo cursar <b>Letras</b> 
+                    na <b>Universidade de São Paulo</b>, trabalhando com tradução, revisão, pesquisa, edição, 
+                    análise e produção de textos literários e não-literários, bem como de materiais audiovisuais. 
+                </p>
+            </div>
+            <div>
+                <img src="foto-perfil-mm-quadrada.jpg" alt="imagem de perfil" width="120px">
+            </div>
+        </div>
+    </section>
 
-        <!-- seção sobre mim -->
-        <section id = "sobre">
-            
-            <div class = "titulo">
-                <h2>Sobre mim</h2>
-            </div>
-            <div id = conteudo_sobre_mim>
-                <div class = "texto">
-                    <p>Sou uma estudante do 2º ano do <b>Novo Ensino Médio</b> no SESI e do Curso Técnico de
-                        <b>Desenvolvimento de Sistemas</b> no SENAI. Tenho 16 anos e planejo cursar <b>Letras</b> 
-                        na <b>Universidade de São Paulo</b>, trabalhando com tradução, revisão, pesquisa, edição, 
-                        análise e produção de textos literários e não-literários, bem como de materiais audiovisuais. 
-                    </p>
-                </div>
-                <div>
-                    <img src="foto-perfil-mm-quadrada.jpg" alt="imagem de perfil" width="30%">
-                </div>
-            </div>
-        </section>
-
-        <!-- seção habilidades -->
-        <section id = "habilidades">
-            <div class = "titulo">
-                <h2 >Minhas habilidades</h2>
-            </div>
-            <ul class = "texto">
+    <!-- seção habilidades -->
+    <section id = "habilidades">
+        <div class = "titulo">
+            <h2 >Minhas habilidades</h2>
+        </div>
+        <div class = "texto">
+            <ul id = "lista_hab">
                 <li>Nível avançado (C1) em <b>escrita e compreensão auditiva</b> da <b>Língua Inglesa</b>;</li>
                 <li>Conhecimento intermediário do <b>Pacote Office 360</b> (Word, Powerpoint e Excel);</li>
                 <li>Domínio avançado de <b>linguagens de marcação</b> (HTML5 e CSS3);</li>
@@ -50,18 +48,28 @@
                 <li>Domínio intermediário de <b>editores de vídeo</b> para produções audiovisuais;</li>
                 <li>Domínio intermediário do <b>editor Canva</b>.</li>
             </ul>
-        </section>
+        </div>
+    </section>
 
-        <!-- seção contato -->
-        <section id = "contato">
-            <h2 class = "titulo">Entre em contato</h2>
-        </section>
-
-    </div>
+    <!-- seção contato -->
+    <section id = "contato">
+        <div class = "titulo">
+            <h2 >Entre em contato</h2>
+        </div>
+        <div id = "formulario">
+            <form action = "" autocomplete="on">
+                <label for = "email">Seu email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for ="message">Sua mensagem:</label><br>
+                <textarea name="message" required></textarea><br><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </section>
 
     <!-- rodapé -->
     <footer>
-        <h4></h4>
+        <h4>Desenvolvido com ódio por <b>Leticia Farias</b></h4>
     </footer>
 </body>
 </html>
