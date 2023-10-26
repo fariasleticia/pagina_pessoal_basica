@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Raleway&display=swap');
+
+body {
+    background-color: #f1dec3;
+    color: #ee9c2e;
+    margin: -1% 0 0 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Merriweather', serif;
+}
+
+header {
+    background-color: #ee9c2e;
+    color: #f1dec3;
+    padding: 2%;
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+img {
+    border-radius: 100%;
+}
+
+.titulo, .texto {
+    padding: 0.5% 3%;
+    margin: 1%;
+    border-radius: 20px;
+}
+
+.titulo {
+    background-color: #4e6424;
+    color: #a8b16b;
+}
+
+.texto {
+    background-color: #a8b16b;
+    color: #4e6424;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    color: #a8b16b;
+    margin: 2% 15%;
+    padding: 1%;
+    justify-content: center;
+}
+
+#conteudo_sobre_mim {
+    display: flex;
+    flex-direction: row;
+}
