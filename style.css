@@ -52,6 +52,10 @@ img {
     color: #a8b16b;
 }
 
+.titulo:hover {
+    background-color: #435620;
+}
+
 .texto {
     background-color: #a8b16b;
     color: #4e6424;
@@ -68,6 +72,7 @@ img {
     color:#4e6424;
 }
 
+/* estilização das caixas de inserção de texto */
 input[type="text"],
 input[type="email"],
 textarea {
@@ -90,6 +95,12 @@ input[type=submit] {
     border: none;
     border-radius: 7px;
     cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* quando o mouse estiver em cima do botão, a cor mudará */
+input[type=submit]:hover {
+    background-color: #435620;
 }
 
 /* formatação do rodapé */
